@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300&display=swap");
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.col-lg {
+  display: flex;
+  flex-wrap: wrap;
+  height: 6rem;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+/*======smooth scroll===========*/
+.scroll {
+  position: fixed;
+  width: 100%;
+  left: 87%;
+  bottom: 65px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: rgb(255, 158, 68);
+}
+/*====== End smooth scroll===========*/
+
+/*=======Start SCroll Bar CSS=========*/
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3b2349;
+  border-radius: 10px;
+}
+/*========End SCROLL BAR CSS==============*/
